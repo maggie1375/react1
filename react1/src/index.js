@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './pages/demo/index.less';
+import Admin from './admin';
+import Life from './pages/demo/lifecycle'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Admin/>, document.getElementById('root'));
 registerServiceWorker();
